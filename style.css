@@ -1,0 +1,42 @@
+/*
+ Theme Name:   KAH Main Theme
+ Theme URI:    http://github.com/elioschmutz/kah-jupiter-child
+ Description:  KAH Website Theme
+ Author:       Elio Schmutz
+ Author URI:   http://github.com/elioschmutz
+ Template:     jupiter
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  jupiter-child
+*/
+
+/* Slider */
+.slide {
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+}
+/* END Slider */
+
+/* Footer Mailchimp Form */
+#mk-subscribe-7.kah-footer-mailchimp  .mk-subscribe--email {
+    background-color: rgba(255,255,255,.03);
+    color: #eeeeee;
+    border: 1px solid #eeeeee;
+    border-color: rgba(255,255,255,.05);
+    font-size: 13px;
+    padding: 12px 28px 12px 15px;
+}
+
+#mk-subscribe-7.kah-footer-mailchimp .mk-subscribe--form-column {
+    display: table-caption;
+}
+
+#mk-subscribe-7.kah-footer-mailchimp .mk-subscribe--button {
+    margin-top: 1em;
+}
+
+/* END Footer Mailchimp Form */
