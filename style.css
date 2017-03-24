@@ -21,8 +21,16 @@
 }
 /* END Slider */
 
+/* Header Logo */
+
+.header-logo img {
+    background-color: rgba(255,255,255,0.6);
+}
+
+/* END Header Logo */
+
 /* Footer Mailchimp Form */
-#mk-subscribe-7.kah-footer-mailchimp  .mk-subscribe--email {
+#mk-footer .kah-footer-mailchimp  .mk-subscribe--email {
     background-color: rgba(255,255,255,.03);
     color: #eeeeee;
     border: 1px solid #eeeeee;
@@ -31,12 +39,32 @@
     padding: 12px 28px 12px 15px;
 }
 
-#mk-subscribe-7.kah-footer-mailchimp .mk-subscribe--form-column {
+#mk-footer .kah-footer-mailchimp .mk-subscribe--form-column {
     display: table-caption;
 }
 
-#mk-subscribe-7.kah-footer-mailchimp .mk-subscribe--button {
+#mk-footer .kah-footer-mailchimp .mk-subscribe--button {
     margin-top: 1em;
 }
 
 /* END Footer Mailchimp Form */
+
+/* Footer Eventcalendar */
+#mk-footer .tribe-events-list-widget .tribe-events-list-widget-events {
+    padding: 0;
+}
+
+#mk-footer .tribe-events-list-widget .tribe-event-title {
+    font-size: inherit;
+    font-weight: bold;
+}
+/* END Footer Eventcalendar */
+
+/* Sub-Footer Navigation */
+.mk-footer-copyright {
+    float: right;
+}
+#mk-footer-navigation {
+    float: none;
+}
+/* END Sub-Footer Navigation */
