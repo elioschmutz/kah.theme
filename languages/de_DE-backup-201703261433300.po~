@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-03-22 21:07+0000\n"
+"PO-Revision-Date: 2017-03-26 14:33+0000\n"
 "Last-Translator: admin <elio.schmutz@gmail.com>\n"
 "Language-Team: German\n"
 "X-Poedit-Basepath: ..\n"
@@ -396,7 +396,7 @@ msgstr ""
 
 #: ../bbpress/meta-single-topic.php:14
 msgid "Posted in:"
-msgstr ""
+msgstr "Erstellt in:"
 
 #: ../comments.php:21
 msgid "Your comment is awaiting moderation."
@@ -410,8 +410,8 @@ msgstr ""
 #: ../comments.php:67
 msgid "Comments "
 msgid_plural "Showing %1$s comments"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kommentare"
+msgstr[1] "Zeige %1$s Kommentare"
 
 #: ../comments.php:82
 msgid "pingbacks / trackbacks"
@@ -434,15 +434,15 @@ msgstr ""
 
 #: ../comments.php:115
 msgid "Leave a Comment"
-msgstr ""
+msgstr "Kommentar schreiben"
 
 #: ../comments.php:116
 msgid "LEAVE YOUR COMMENT"
-msgstr ""
+msgstr "Schreibe Deinen Kommentar"
 
 #: ../comments.php:119
 msgid "POST COMMENT"
-msgstr ""
+msgstr "Kommentar erstellen"
 
 #: ../components/shortcodes/mk_advanced_gmaps/vc_map.php:3
 msgid "Advanced Google Maps"
@@ -1765,7 +1765,7 @@ msgstr ""
 #: ../components/shortcodes/mk_news/components/read-more.php:1,
 #: ../views/widgets/widgets-news-slider.php:65
 msgid "Read more"
-msgstr ""
+msgstr "Mehr lesen"
 
 #: ../components/shortcodes/mk_blog_showcase/vc_map.php:3
 msgid "Blog Showcase"
@@ -1815,7 +1815,7 @@ msgstr ""
 #: ../views/blog/components/blog-single-meta.php:26,
 #: ../views/templates/wp-search.php:26
 msgid "By"
-msgstr ""
+msgstr "Von"
 
 #: ../components/shortcodes/mk_blog/components/meta.php:13,
 #: ../views/blog/components/blog-single-meta.php:30,
@@ -1827,21 +1827,21 @@ msgstr ""
 #: ../components/shortcodes/mk_blog/components/meta.php:16,
 #: ../views/blog/components/blog-single-meta.php:28
 msgid "Posted"
-msgstr ""
+msgstr "Erstellt"
 
 #: ../components/shortcodes/mk_blog/components/read-more.php:1,
 #: ../components/shortcodes/mk_news_tab/mk_news_tab.php:88,
 #: ../components/shortcodes/mk_news_tab/mk_news_tab.php:95,
 #: ../components/shortcodes/mk_products/mk_products.php:201
 msgid "Read More"
-msgstr ""
+msgstr "Mehr lesen"
 
 #: ../components/shortcodes/mk_blog/loop-styles/modern.php:48,
 #: ../components/shortcodes/mk_blog/loop-styles/spotlight.php:68,
 #: ../components/shortcodes/mk_blog/loop-styles/thumbnail.php:55,
 #: ../components/shortcodes/mk_products/mk_products.php:183
 msgid "READ MORE"
-msgstr ""
+msgstr "MEHR LESEN"
 
 #: ../components/shortcodes/mk_blog/vc_map.php:8
 msgid "Blog loops are here."
@@ -3269,22 +3269,6 @@ msgstr ""
 msgid "Change text."
 msgstr ""
 
-#: ../components/shortcodes/mk_contact_form/components/email-field.php:14
-msgid "Your Email"
-msgstr "Deine Email"
-
-#: ../components/shortcodes/mk_contact_form/components/message-field.php:5
-msgid "Your Message"
-msgstr "Deine Nachricht"
-
-#: ../components/shortcodes/mk_contact_form/components/name-field.php:13
-msgid "Your Name"
-msgstr "Dein Name"
-
-#: ../components/shortcodes/mk_contact_form/components/phone-field.php:13
-msgid "Your Phone Number"
-msgstr "Deine Telefonnummer"
-
 #: ../components/shortcodes/mk_contact_form/styles/corporate.php:4,
 #: ../components/shortcodes/mk_contact_form/styles/line.php:7
 msgid "First Name*"
@@ -3307,10 +3291,6 @@ msgstr ""
 msgid "Phone Number"
 msgstr ""
 
-#: ../components/shortcodes/mk_contact_form/styles/corporate.php:33
-msgid "Message"
-msgstr "Nachricht"
-
 #: ../components/shortcodes/mk_contact_form/styles/corporate.php:45,
 #: ../components/shortcodes/mk_contact_form/styles/line.php:70,
 #: ../views/footer/quick-contact.php:43,
@@ -3322,11 +3302,6 @@ msgstr ""
 #: ../components/shortcodes/mk_contact_info/vc_map.php:17
 msgid "Phone"
 msgstr ""
-
-#: ../components/shortcodes/mk_contact_form/styles/line.php:56,
-#: ../views/footer/quick-contact.php:39
-msgid "Message*"
-msgstr "Nachricht*"
 
 #: ../components/shortcodes/mk_contact_form/vc_map.php:9
 msgid "Contact Form"
@@ -11828,12 +11803,6 @@ msgid ""
 "Fill this area which represents your site slogan or an important message."
 msgstr ""
 
-#: ../framework/admin/theme-options/params/general_settings/header_toolbar.php:32,
-#: ../framework/metaboxes/metabox-employee.php:155,
-#: ../views/header/toolbar/subscribe.php:27
-msgid "Email Address"
-msgstr "Email Adresse"
-
 #: ../framework/admin/theme-options/params/general_settings/header_toolbar.php:39
 msgid "Show Login Form?"
 msgstr ""
@@ -13980,18 +13949,6 @@ msgstr ""
 msgid "Email could not be sent! There is an issue with mail server!"
 msgstr ""
 
-#: ../framework/helpers/subscribe-mailchimp.php:63
-msgid "Oops! Enter a valid Email address"
-msgstr "Gib eine gültige Email Adresse ein."
-
-#: ../framework/helpers/subscribe-mailchimp.php:72
-msgid "This email already subscribed to the list."
-msgstr "Diese Email Adresse ist bereits für den Newsletter registriert."
-
-#: ../framework/helpers/subscribe-mailchimp.php:83
-msgid " has been subscribed."
-msgstr "wurde registriert."
-
 #: ../framework/helpers/svg-icons.php:151,
 #: ../framework/helpers/svg-icons.php:238,
 #: ../framework/helpers/svg-icons.php:291
@@ -15565,7 +15522,7 @@ msgstr ""
 
 #: ../framework/metaboxes/metabox-posts.php:395
 msgid "Comments"
-msgstr ""
+msgstr "Kommentare"
 
 #: ../framework/metaboxes/metabox-posts.php:396
 msgid "Disable comments section for this post."
@@ -16183,10 +16140,6 @@ msgstr ""
 msgid "Create Account"
 msgstr ""
 
-#: ../views/header/toolbar/login.php:76
-msgid "Your email"
-msgstr "Deine Email"
-
 #: ../views/header/toolbar/login.php:86
 msgid "Already have an account?"
 msgstr ""
@@ -16206,15 +16159,6 @@ msgstr ""
 #: ../views/header/toolbar/login.php:103
 msgid "Remember Password?"
 msgstr ""
-
-#: ../views/header/toolbar/subscribe.php:22,
-#: ../views/header/toolbar/subscribe.php:30
-msgid "Subscribe"
-msgstr "Newsletter"
-
-#: ../views/header/toolbar/subscribe.php:26
-msgid "Subscribe to newsletter"
-msgstr "Für den Newsletter anmelden"
 
 #: ../views/header/toolbar/wpml-nav.php:19
 msgid "Languages"
@@ -16789,11 +16733,6 @@ msgstr ""
 msgid "Last name"
 msgstr ""
 
-#: ../woocommerce/myaccount/form-edit-account.php:40,
-#: ../woocommerce/myaccount/form-login.php:91
-msgid "Email address"
-msgstr "Email Adresse"
-
 #: ../woocommerce/myaccount/form-edit-account.php:45
 msgid "Password Change"
 msgstr ""
@@ -16895,6 +16834,67 @@ msgstr ""
 #: ../woocommerce/single-product/up-sells.php:37
 msgid "You may also like&hellip;"
 msgstr ""
+
+#: ../components/shortcodes/mk_contact_form/components/email-field.php:14
+msgid "Your Email"
+msgstr "Deine Email"
+
+#: ../components/shortcodes/mk_contact_form/components/message-field.php:5
+msgid "Your Message"
+msgstr "Deine Nachricht"
+
+#: ../components/shortcodes/mk_contact_form/components/name-field.php:13
+msgid "Your Name"
+msgstr "Dein Name"
+
+#: ../components/shortcodes/mk_contact_form/components/phone-field.php:13
+msgid "Your Phone Number"
+msgstr "Deine Telefonnummer"
+
+#: ../components/shortcodes/mk_contact_form/styles/corporate.php:33
+msgid "Message"
+msgstr "Nachricht"
+
+#: ../components/shortcodes/mk_contact_form/styles/line.php:56,
+#: ../views/footer/quick-contact.php:39
+msgid "Message*"
+msgstr "Nachricht*"
+
+#: ../framework/admin/theme-options/params/general_settings/header_toolbar.php:32,
+#: ../framework/metaboxes/metabox-employee.php:155,
+#: ../views/header/toolbar/subscribe.php:27
+msgid "Email Address"
+msgstr "Email Adresse"
+
+#: ../framework/helpers/subscribe-mailchimp.php:63
+msgid "Oops! Enter a valid Email address"
+msgstr "Gib eine gültige Email Adresse ein."
+
+#: ../framework/helpers/subscribe-mailchimp.php:72
+msgid "This email already subscribed to the list."
+msgstr "Diese Email Adresse ist bereits für den Newsletter registriert."
+
+#: ../framework/helpers/subscribe-mailchimp.php:83
+msgid " has been subscribed."
+msgstr "wurde registriert."
+
+#: ../views/header/toolbar/login.php:76
+msgid "Your email"
+msgstr "Deine Email"
+
+#: ../views/header/toolbar/subscribe.php:22,
+#: ../views/header/toolbar/subscribe.php:30
+msgid "Subscribe"
+msgstr "Newsletter"
+
+#: ../views/header/toolbar/subscribe.php:26
+msgid "Subscribe to newsletter"
+msgstr "Melde dich für den Newsletter an"
+
+#: ../woocommerce/myaccount/form-edit-account.php:40,
+#: ../woocommerce/myaccount/form-login.php:91
+msgid "Email address"
+msgstr "Email Adresse"
 
 #: ../views/footer/quick-contact.php:50
 msgid "Send"
