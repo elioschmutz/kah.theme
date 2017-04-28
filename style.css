@@ -99,4 +99,13 @@
 .tribe-events-adv-list-widget .tribe-event-featured .tribe-mini-calendar-event {
      background-color: transparent !important;
 }
+/* fix a bug where the title will be "archives" instead the right event-title. */
+.post-type-archive-tribe_events .page-title {
+    visibility: hidden !important;
+}
+.post-type-archive-tribe_events .page-title:after {
+    content: "Veranstaltungen";
+    visibility: visible;
+    display: block;
+}
 /* END Event calendar */
