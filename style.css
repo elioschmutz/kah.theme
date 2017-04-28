@@ -24,7 +24,7 @@
 /* Header Logo */
 
 .header-logo img {
-    background-color: rgba(255,255,255,0.6);
+    background-color: white;
 }
 
 /* END Header Logo */
@@ -97,6 +97,6 @@
 .tribe-events-venue-widget .tribe-event-featured,
 .tribe-mini-calendar-list-wrapper .tribe-event-featured,
 .tribe-events-adv-list-widget .tribe-event-featured .tribe-mini-calendar-event {
-     background-color: rgba(171,0,6,0.3) !important;
+     background-color: transparent !important;
 }
 /* END Event calendar */
