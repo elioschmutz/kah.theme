@@ -4,8 +4,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-03-26 14:33+0000\n"
-"Last-Translator: admin <elio.schmutz@gmail.com>\n"
+"PO-Revision-Date: 2017-05-12 10:26+0000\n"
+"Last-Translator: Elio Schmutz <elio@kultagentur-hauta.ch>\n"
 "Language-Team: German\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -394,10 +394,6 @@ msgstr ""
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: ../bbpress/meta-single-topic.php:14
-msgid "Posted in:"
-msgstr "Erstellt in:"
-
 #: ../comments.php:21
 msgid "Your comment is awaiting moderation."
 msgstr ""
@@ -406,12 +402,6 @@ msgstr ""
 msgid ""
 "This post is password protected. Enter the password to view any comments."
 msgstr ""
-
-#: ../comments.php:67
-msgid "Comments "
-msgid_plural "Showing %1$s comments"
-msgstr[0] "Kommentare"
-msgstr[1] "Zeige %1$s Kommentare"
 
 #: ../comments.php:82
 msgid "pingbacks / trackbacks"
@@ -430,19 +420,7 @@ msgstr ""
 #: ../components/shortcodes/mk_contact_form/styles/line.php:35,
 #: ../components/shortcodes/mk_contact_info/vc_map.php:59
 msgid "Website"
-msgstr ""
-
-#: ../comments.php:115
-msgid "Leave a Comment"
-msgstr "Kommentar schreiben"
-
-#: ../comments.php:116
-msgid "LEAVE YOUR COMMENT"
-msgstr "Schreibe Deinen Kommentar"
-
-#: ../comments.php:119
-msgid "POST COMMENT"
-msgstr "Kommentar erstellen"
+msgstr "Webseite"
 
 #: ../components/shortcodes/mk_advanced_gmaps/vc_map.php:3
 msgid "Advanced Google Maps"
@@ -1761,12 +1739,6 @@ msgstr ""
 msgid "Sort retrieved Blog items by parameter."
 msgstr ""
 
-#: ../components/shortcodes/mk_blog_showcase/mk_blog_showcase.php:64,
-#: ../components/shortcodes/mk_news/components/read-more.php:1,
-#: ../views/widgets/widgets-news-slider.php:65
-msgid "Read more"
-msgstr "Mehr lesen"
-
 #: ../components/shortcodes/mk_blog_showcase/vc_map.php:3
 msgid "Blog Showcase"
 msgstr ""
@@ -1810,38 +1782,12 @@ msgstr ""
 msgid "Images Height"
 msgstr ""
 
-#: ../components/shortcodes/mk_blog/components/meta.php:9,
-#: ../views/blog/components/blog-single-bold-hero.php:51,
-#: ../views/blog/components/blog-single-meta.php:26,
-#: ../views/templates/wp-search.php:26
-msgid "By"
-msgstr "Von"
-
 #: ../components/shortcodes/mk_blog/components/meta.php:13,
 #: ../views/blog/components/blog-single-meta.php:30,
 #: ../views/templates/wp-search.php:38, ../views/templates/wp-search.php:41,
 #: ../views/templates/wp-search.php:44
 msgid "In"
 msgstr ""
-
-#: ../components/shortcodes/mk_blog/components/meta.php:16,
-#: ../views/blog/components/blog-single-meta.php:28
-msgid "Posted"
-msgstr "Erstellt"
-
-#: ../components/shortcodes/mk_blog/components/read-more.php:1,
-#: ../components/shortcodes/mk_news_tab/mk_news_tab.php:88,
-#: ../components/shortcodes/mk_news_tab/mk_news_tab.php:95,
-#: ../components/shortcodes/mk_products/mk_products.php:201
-msgid "Read More"
-msgstr "Mehr lesen"
-
-#: ../components/shortcodes/mk_blog/loop-styles/modern.php:48,
-#: ../components/shortcodes/mk_blog/loop-styles/spotlight.php:68,
-#: ../components/shortcodes/mk_blog/loop-styles/thumbnail.php:55,
-#: ../components/shortcodes/mk_products/mk_products.php:183
-msgid "READ MORE"
-msgstr "MEHR LESEN"
 
 #: ../components/shortcodes/mk_blog/vc_map.php:8
 msgid "Blog loops are here."
@@ -3272,18 +3218,18 @@ msgstr ""
 #: ../components/shortcodes/mk_contact_form/styles/corporate.php:4,
 #: ../components/shortcodes/mk_contact_form/styles/line.php:7
 msgid "First Name*"
-msgstr ""
+msgstr "Vorname*"
 
 #: ../components/shortcodes/mk_contact_form/styles/corporate.php:8,
 #: ../components/shortcodes/mk_contact_form/styles/line.php:15
 msgid "Last Name*"
-msgstr ""
+msgstr "Nachname*"
 
 #: ../components/shortcodes/mk_contact_form/styles/corporate.php:16,
 #: ../components/shortcodes/mk_contact_form/styles/line.php:28,
 #: ../views/footer/quick-contact.php:38
 msgid "Email*"
-msgstr ""
+msgstr "E-Mail*"
 
 #: ../components/shortcodes/mk_contact_form/styles/corporate.php:25,
 #: ../framework/admin/theme-options/params/general_settings/header_toolbar.php:25,
@@ -13943,11 +13889,11 @@ msgstr ""
 
 #: ../framework/helpers/send-email.php:110
 msgid "Email sent!"
-msgstr ""
+msgstr "E-Mail wurde versendet!"
 
 #: ../framework/helpers/send-email.php:117
 msgid "Email could not be sent! There is an issue with mail server!"
-msgstr ""
+msgstr "E-Mail konnte nicht versendet werden!"
 
 #: ../framework/helpers/svg-icons.php:151,
 #: ../framework/helpers/svg-icons.php:238,
@@ -15520,10 +15466,6 @@ msgstr ""
 msgid "Using this option you can turn on/off author email in about author box."
 msgstr ""
 
-#: ../framework/metaboxes/metabox-posts.php:395
-msgid "Comments"
-msgstr "Kommentare"
-
 #: ../framework/metaboxes/metabox-posts.php:396
 msgid "Disable comments section for this post."
 msgstr ""
@@ -16190,7 +16132,7 @@ msgstr ""
 
 #: ../views/layout/title.php:67
 msgid "Monthly Archive for: \"%s\""
-msgstr ""
+msgstr "Monatliches Archiv für: \"%s\""
 
 #: ../views/layout/title.php:69
 msgid "Yearly Archive for: \"%s\""
@@ -16834,6 +16776,64 @@ msgstr ""
 #: ../woocommerce/single-product/up-sells.php:37
 msgid "You may also like&hellip;"
 msgstr ""
+
+#: ../bbpress/meta-single-topic.php:14
+msgid "Posted in:"
+msgstr "Erstellt in:"
+
+#: ../comments.php:67
+msgid "Comments "
+msgid_plural "Showing %1$s comments"
+msgstr[0] "Kommentare"
+msgstr[1] "Zeige %1$s Kommentare"
+
+#: ../comments.php:115
+msgid "Leave a Comment"
+msgstr "Kommentar schreiben"
+
+#: ../comments.php:116
+msgid "LEAVE YOUR COMMENT"
+msgstr "Schreibe Deinen Kommentar"
+
+#: ../comments.php:119
+msgid "POST COMMENT"
+msgstr "KOMMENTAR ERSTELLEN"
+
+#: ../components/shortcodes/mk_blog_showcase/mk_blog_showcase.php:64,
+#: ../components/shortcodes/mk_news/components/read-more.php:1,
+#: ../views/widgets/widgets-news-slider.php:65
+msgid "Read more"
+msgstr "Mehr lesen"
+
+#: ../components/shortcodes/mk_blog/components/meta.php:9,
+#: ../views/blog/components/blog-single-bold-hero.php:51,
+#: ../views/blog/components/blog-single-meta.php:26,
+#: ../views/templates/wp-search.php:26
+msgid "By"
+msgstr "Von"
+
+#: ../components/shortcodes/mk_blog/components/meta.php:16,
+#: ../views/blog/components/blog-single-meta.php:28
+msgid "Posted"
+msgstr "Erstellt"
+
+#: ../components/shortcodes/mk_blog/components/read-more.php:1,
+#: ../components/shortcodes/mk_news_tab/mk_news_tab.php:88,
+#: ../components/shortcodes/mk_news_tab/mk_news_tab.php:95,
+#: ../components/shortcodes/mk_products/mk_products.php:201
+msgid "Read More"
+msgstr "Mehr lesen"
+
+#: ../components/shortcodes/mk_blog/loop-styles/modern.php:48,
+#: ../components/shortcodes/mk_blog/loop-styles/spotlight.php:68,
+#: ../components/shortcodes/mk_blog/loop-styles/thumbnail.php:55,
+#: ../components/shortcodes/mk_products/mk_products.php:183
+msgid "READ MORE"
+msgstr "MEHR LESEN"
+
+#: ../framework/metaboxes/metabox-posts.php:395
+msgid "Comments"
+msgstr "Kommentare"
 
 #: ../components/shortcodes/mk_contact_form/components/email-field.php:14
 msgid "Your Email"
