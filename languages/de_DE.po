@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-12-11 22:15+0000\n"
+"PO-Revision-Date: 2017-12-11 22:18+0000\n"
 "Last-Translator: Elio Schmutz <info@kultagentur-hauta.ch>\n"
 "Language-Team: German\n"
 "X-Poedit-Basepath: ..\n"
@@ -15966,7 +15966,7 @@ msgstr ""
 
 #: ../views/blog/components/blog-similar-posts.php:95
 msgid "Recent Posts"
-msgstr "Kürzliche Beiträge"
+msgstr "Neuste Beiträge"
 
 #: ../views/blog/components/blog-single-about-author.php:20
 msgid "About"
